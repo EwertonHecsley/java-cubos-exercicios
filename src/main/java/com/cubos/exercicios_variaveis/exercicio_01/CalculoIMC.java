@@ -1,4 +1,4 @@
-package com.cubos.exercicios.exercicio_01;
+package com.cubos.exercicios_variaveis.exercicio_01;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.cubos.exercicios.exercicio_06;
+package com.cubos.exercicios_variaveis.exercicio_06;
 
 public class VelocidadeMedia {
     public static void main(String[] args) {
