@@ -10,8 +10,6 @@ public class MaiorNumero {
 
         Arrays.sort(numeros,Collections.reverseOrder());
 
-        System.out.println(numeros.getClass());
-
         maiorNumero = numeros[0];
 
         System.out.println(maiorNumero);
