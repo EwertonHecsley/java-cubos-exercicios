@@ -2,8 +2,8 @@ package com.cubos.exercicio_funcoes;
 
 public class Alunos {
     public static void main(String[] args) {
-        
-        Prova prova = new Prova("João", "Português", 10, new Questao[]{
+
+        Prova prova = new Prova("João", "Português", 10, new Questao[] {
                 new Questao("a", "b"),
                 new Questao("c", "c"),
                 new Questao("e", "b"),
@@ -11,11 +11,9 @@ public class Alunos {
                 new Questao("c", "c")
         });
 
-        
         corrigirProva(prova);
     }
 
-    
     public static void corrigirProva(Prova prova) {
         int acertos = 0;
 
@@ -30,7 +28,6 @@ public class Alunos {
         System.out.println("O aluno(a) " + prova.aluno + " acertou " + acertos + " questões e obteve nota " + nota);
     }
 }
-
 
 class Prova {
     String aluno;
