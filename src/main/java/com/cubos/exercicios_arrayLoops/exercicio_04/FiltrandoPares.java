@@ -6,7 +6,7 @@ import java.util.List;
 public class FiltrandoPares {
     public static void main(String[] args) {
         Integer[] numeros = {1,2,3,4,5,6,10,11,15,25,32,41,53,60};
-        List<Integer> resultado = new ArrayList();
+        List<Integer> resultado = new ArrayList<Integer>();
         
         for(int i : numeros){
             if(i % 2 == 0){

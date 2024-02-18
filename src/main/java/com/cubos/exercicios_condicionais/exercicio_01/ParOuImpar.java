@@ -19,5 +19,7 @@ public class ParOuImpar {
         }else{
             System.out.println("Impar");
         }
+
+        scanner.close();
     }
 }
